@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My HTML Site</title>
+        <link rel="icon" type="image/png" href="HTML_logo.png">
+        <script src="https://kit.fontawesome.com/c029b66c10.js" crossorigin="anonymous"></script>
+    </head>
+    <body id="Top_of_page">
+        <header>
+            <h1>Learning process</h1>
+            <span>Let's talk about learning HTML:</span>
+            <br>
+            If you haven't checked out my first webpage, you should definitely do so:
+            <a href="index.html">
+                <h2>The discovery of a world</h2>
+                <h3>How it all started</h3>
+            </a>
+        </header>
+        <main>
+        <!-- Implement VIDEO -->
+
+
+            <h2>Programming languages</h2>
+
+            Languages I am planning to learn:
+            <ol type="I"> <!-- Roman numerals instead of regular numbers: -->
+                <li>HTML
+                    <ul>
+                        <li>tags</li>
+                        <li><a href="https://www.w3schools.com/html/html5_semantic_elements.asp" style="color: red">semantics</a></li>
+                    </ul>
+                </li>
+                <li>CSS</li>
+                <li>Javascript and Python</li>  
+            </ol>
+
+            <h2> Strengths </h2>
+            <table border="1">
+                <caption><a href="https://www.google.com/search?q=why+learn+html&oq=why+learn+html&aqs=chrome.0.0i512l3j0i22i30l7.3310j0j1&sourceid=chrome&ie=UTF-8">Strengths and   
+                Applications</a></caption>
+
+
+                <thead>
+                    <tr>
+                        <th colspan="3" rowspan="2">Language</th>
+                        <th>Applications</th>
+                        <th>Strengths</th>
+                    </tr>
+
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="3" rowspan="2">Python</td>
+                        <td>Machine Learning</td>
+                        <td rowspan="2">Beginner-friendly</td>
+                    </tr>
+                    <tr> 
+                        <td>Data Analysis</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">HTML</td>
+                        <td>Making websites</td>
+                        <td>Simple</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Javascript</td>
+                        <td>Making websites</td>
+                        <td>Powerful</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+            <h2>In practice</h2>
+            Learning HTML allows me for exemple to show you the following photo:
+            <br>
+            <br>
+            <figure>
+                <img src="HTML_logo.png" title="HTML5 Logo" alt="HTML5 's Logo" width="350"> <!-- or width="50%" -->
+                <figcaption> The new logo of HTML5 consist of the word HTML on a sort of orange shield </figcaption>
+            </figure>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            Using the following code: <code>&lt;img src="HTML_logo.png" title="HTML5 Logo" alt="Photo of HTML5 's Logo to show how used use code."&sol;&gt;</code>
+
+            <p>We can also use font awesome, a site full of icons to add images to our site and even make them links:</p>
+            <a href="http://www.coursera.org" aria-label="Coursera"><i class="fa-solid fa-chalkboard-user fa-3x"></i></a> <!-- BE careful to put aria-label or it may cause errors! -->
+
+            <p>I can also display videos and even audios on my webpage for exemple:
+            <h3>Here's an audio</h3>
+
+            <audio src="HTML_explanation_audio.m4a#t=3,9" muted controls >Charbel Moutran introducing HTML in a simple sentence</audio> 
+            <h3>Here's a video</h3>
+            <br>
+            <video src="Me_HTML.mp4#t=,5" loop poster="HTML_logo.png" width="400" controls>HTML tutorial</video> <!-- Highly disrecommend using loop and autoplay which make user                 
+            angry and #t in source specifies which part we want in video or audio, could be #t= 1, 3 or 3 or ,6 or nothing meaning we want all video --> 
+            <br>
+            <hr>
+            <p>There is one last thing I want to say, there are a lot more tags, so go on the internet and search for them! some of the tags in the course I did not cover are tags that 
+            need Javascript to work, these are the meter, progress, area, button, and iframe tags among others linke input tags, the only one I am going to cover is the bdo tag
+            which lets us write from right to left instead of left to right.</p>
+            <bdo dir="rtl">قررت ان اتحدث في العربية</bdo> <!-- dir="rtl" ==> direction is right to left -->
+            <p>Thank you for visisting my site, that's basically it,</p>
+            <details> 
+                <summary>
+                In Summary
+                </summary>
+                I have mainly talked about HTML on this site, the reasons I am learning it and how I am doing it. I definitely encourage you to get started!
+            </details>
+            And remember,
+            <blockquote cite="https://sites.ed.gov/whhbcu/multimedia/everyone-in-this-country-should-learn-how-to-program-because-it-teaches-you-how-to-think-steve-jobs/#:~:text=Home-,%E2%80%9CEveryone%20in%20this%20country%20should%20learn%20how%20to%20program%20because,how%20to%20think%E2%80%9D%20%E2%80%93%20Steve%20Jobs">   
+            "Everyone in this country should learn how to program because it teaches you how to <strong><i>think</i></strong>" Steve Jobs</blockquote>
+            <!-- NB: It is preferable to use the q tag for small inline quotes while the blockquote tag tends to be used when quoting an entire section from a source. -->
+
+        </main>
+        <footer>
+            <hr>
+            <p>...And that's how I am planning to become a web developper</p>
+            <small>For more information...</small>
+            <br>
+            <small>&copy;Charbel Moutran</small>
+            <!-- The browser only creates new line when using br element -->
+            <br>
+            Want to learn HTML? Go to: 
+            <cite><a href="https://learn.shayhowe.com/" target="_blank">Shay Howe</a></cite>
+            <br>
+            Email me at:
+            <a href="mailto:charbelmoutran39@gmail.com?subject=Contact%20Me&body=Ask%20your%20questions" target="_blank">My email</a>
+            <br>
+            <a href="#Top_of_page" style="color: red">Back to top</a> 
+            <hr>
+            My address:
+            <address>Lebanon, Bekaa, Zahle</address>  
+            <!-- SHAY HOWE -->
+
+        </footer>
+    </body>
+   
+
+</html>
